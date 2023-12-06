@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    font-family: 'Nova Square', sans-serif;
+    transition: 3s;
+}
+#firstDiv {
+    background: url("./img/calculator-woth-paperwork-background-vector-19859244.jpg");
+    background-size: cover;
+    height: 85vh;
+    filter: brightness(.5);
+}
+button {
+    background-color: #1c1c1c !important;
+    color: #fa3d3b !important;
+}
+
+.showDiv {
+    color: #fffbfb !important;
+    text-align: justify !important;
+    margin: 20px 0px !important;
+}
+
+.showDiv:nth-child(1) {
+    text-decoration: underline #fa3d3b !important;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: #c6c6c6 !important;
+}
